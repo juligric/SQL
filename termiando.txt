@@ -1,0 +1,12 @@
+EJ9
+DELETE FROM alumno
+WHERE fecha_nac < '1994-01-01';
+
+EJ10
+select * FROM alumno
+order by fecha_nac DESC
+limit 10
+
+EJ 11
+delete FROM alumno
+where email like '@yahoo.com'
