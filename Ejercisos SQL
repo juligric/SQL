@@ -1,0 +1,42 @@
+EJ 1
+SELECT * FROM alumno;
+where fecha_nac > '1994 - 12 - 31' 
+order by nombres ASC
+
+EJ2
+SELECT * FROM alumno
+where  email like '%@hotmail.com';
+
+EJ3
+
+update especialidad
+set codigo = 'NT' 
+where  codigo = 'NR';
+
+
+EJ4 
+no pudmos hacer el antrior pooruqe es la clave foranea de la otra tabla
+
+EJ5
+para pdeor solucoaornlo tenes que cambiar las claves forneanes en todas las tablas 
+
+EJ6
+SELECT count (*) 
+from alumno
+where nombre like '%Gomez';
+
+EJ7
+SELECT count (*) 
+from alumno
+where nombre like 'L%';
+
+EJ8
+SELECT * FROM alumno
+WHERE EXTRACT(MONTH FROM fecha_nac) = 4
+  AND EXTRACT(DAY FROM fecha_nac) = 19;
+
+
+
+
+
+
