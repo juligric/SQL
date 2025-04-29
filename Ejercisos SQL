@@ -1,7 +1,7 @@
 EJ 1
-SELECT * FROM alumno;
-where fecha_nac > '1994 - 12 - 31' 
-order by nombres ASC
+SELECT * FROM alumno
+where fecha_nac > '1994-12-31' 
+order by nombre ASC;
 
 EJ2
 SELECT * FROM alumno
@@ -9,9 +9,9 @@ where  email like '%@hotmail.com';
 
 EJ3
 
-update especialidad
-set codigo = 'NT' 
-where  codigo = 'NR';
+  update especialidad
+  set codigo = 'NT' 
+  where  codigo = 'NR';
 
 
 EJ4 
